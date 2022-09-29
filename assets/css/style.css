@@ -7,6 +7,16 @@
   justify-content: flex-end;
 }
 
+.but-left-top,
+.but-right-top {
+  background-color: rgb(50, 50, 50);
+  color: white;
+  padding: 5px 5px;
+  border: 0;
+  margin-left: 5px;
+  border-radius: 5px;
+}
+
 .main {
   border: 1px solid black;
   flex-grow: 1;
