@@ -42,7 +42,15 @@
 }
 
 .bottom-left div {
-  padding: 10px;
+  padding: 5px;
+}
+
+.bottom-center div {
+  padding: 5px;
+}
+
+.bottom-right div {
+  padding: 5px;
 }
 
 .bottom a > div {
@@ -51,6 +59,18 @@
   align-items: center;
   justify-content: space-evenly;
   color: white;
+}
+
+.fa-share-from-square::before {
+  color: rgb(1, 169, 1);
+}
+
+.bottom-right button {
+  width: 100%;
+  color: red;
+  background-color: rgb(50, 50, 50);
+  border: 0;
+  padding: 10px;
 }
 
 /* .bottom-center {
