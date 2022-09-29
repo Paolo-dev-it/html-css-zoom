@@ -1,1 +1,16 @@
+.big-container {
+  background-color: greenyellow;
+}
 
+.top {
+  border: 1px solid black;
+}
+
+.main {
+  border: 1px solid black;
+  flex-grow: 1;
+}
+
+.bottom {
+  border: 1px solid black;
+}
